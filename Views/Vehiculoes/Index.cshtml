@@ -1,59 +1,65 @@
 ﻿@model IEnumerable<Primera.Models.Vehiculo>
+@using Primera.Models
+@inject ApplicationDbContext _context
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Vehículos</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn-primary">Crear Nuevo</a>
 </p>
-<table class="table">
+
+<!-- Barra de filtro -->
+<input type="text" id="filterInput" placeholder="Filtrar por placa, marca, cliente..." class="filter-bar" />
+
+<table id="vehiculosTable">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.NoPlaca)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Marca)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Color)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.TipoVehiculo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Id_Cliente)
-            </th>
-            <th></th>
+            <th>No. Placa</th>
+            <th>Marca</th>
+            <th>Color</th>
+            <th>Tipo</th>
+            <th>Cliente</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.NoPlaca)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Marca)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Color)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoVehiculo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id_Cliente)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id_Vehiculo">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id_Vehiculo">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id_Vehiculo">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td data-label="No. Placa">@Html.DisplayFor(modelItem => item.NoPlaca)</td>
+                <td data-label="Marca">@Html.DisplayFor(modelItem => item.Marca)</td>
+                <td data-label="Color">@Html.DisplayFor(modelItem => item.Color)</td>
+                <td data-label="Tipo">@Html.DisplayFor(modelItem => item.TipoVehiculo)</td>
+                <td data-label="Cliente">
+                    @{
+                        var cliente = _context.Clientes
+                        .FirstOrDefault(c => c.Id_Cliente == item.Id_Cliente);
+                        var nombreCompleto = cliente != null
+                        ? cliente.Nombres + " " + cliente.Apellidos
+                        : "—";
+                    }
+                    @nombreCompleto
+                </td>
+                <td data-label="Acciones">
+                    <a asp-action="Edit" asp-route-id="@item.Id_Vehiculo" class="btn btn-sm btn-primary me-1">
+                        <i class="bi bi-pencil"></i> Editar
+                    </a>
+                    <a asp-action="Details" asp-route-id="@item.Id_Vehiculo" class="btn btn-sm btn-success me-1">
+                        <i class="bi bi-eye"></i> Detalles
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.Id_Vehiculo" class="btn btn-sm btn-danger">
+                        <i class="bi bi-trash"></i> Eliminar
+                    </a>
+
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
+
+<link rel="stylesheet" href="~/css/vehiculos.css" />
+<script src="~/js/vehiculos.js"></script>
