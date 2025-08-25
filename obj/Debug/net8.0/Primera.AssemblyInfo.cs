@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Primera")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b30f5b4765c9b903449264b8774702d51480109")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d120058df03292add9dbf34d9f671a4dafb7c95")]
 [assembly: System.Reflection.AssemblyProductAttribute("Primera")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Primera")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

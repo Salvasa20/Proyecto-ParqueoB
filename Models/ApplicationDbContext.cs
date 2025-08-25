@@ -15,6 +15,7 @@ namespace Primera.Models
         public DbSet<Tarifa> Tarifas { get; set; } = default!;
         public DbSet<Ticket> Tickets { get; set; } = default!;
         public DbSet<Pago> Pagos { get; set; } = default!;
+        public DbSet<TipoVehiculo> TipoVehiculos { get; set; } = default!;
 
     }
 }

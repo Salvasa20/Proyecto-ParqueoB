@@ -1,26 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\",
+  "WorkspaceRootPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Final\\SeminarioFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\proyecto-parqueob\\views\\vehiculoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:views\\vehiculoes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\final\\seminariofinal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\proyecto-parqueob\\views\\vehiculoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:views\\vehiculoes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ortiz\\AppData\\Local\\Temp\\Rar$DIa28884.11234\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\proyecto-parqueob\\views\\vehiculoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:views\\vehiculoes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\proyecto-parqueob\\views\\vehiculoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:views\\vehiculoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\proyecto-parqueob\\models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:models\\vehiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|c:\\users\\ortiz\\documents\\10 semestre\\047 seminario de tecnolog\u00EDas de informaci\u00F3n\\beta2\\final\\seminariofinal\\wwwroot\\css\\modales.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6DB27FED-EAD9-4FDC-B2F9-4DE6CF4DFA72}|Primera.csproj|solutionrelative:wwwroot\\css\\modales.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +21,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Vehiculoes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Vehiculoes\\Edit.cshtml",
-              "ViewState": "AgIAABAAAAAAAAAAAAAmwDIAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ortiz\\AppData\\Local\\Temp\\Rar$DIa28884.11234\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa28884.11234\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ortiz\\AppData\\Local\\Temp\\Rar$DIa28884.11234\\_Layout.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\Rar$DIa28884.11234\\_Layout.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAFcAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T03:30:25.831Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Vehiculoes\\Details.cshtml",
-              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Details.cshtml",
-              "RelativeToolTip": "Views\\Vehiculoes\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAmwCUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T03:28:27.352Z",
+              "WhenOpened": "2025-08-25T02:37:58.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Vehiculoes\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Vehiculoes\\Delete.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T03:27:47.101Z",
+              "Title": "modales.css",
+              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Final\\SeminarioFinal\\wwwroot\\css\\modales.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\modales.css",
+              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Final\\SeminarioFinal\\wwwroot\\css\\modales.css",
+              "RelativeToolTip": "wwwroot\\css\\modales.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T02:18:42.557Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Vehiculoes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Views\\Vehiculoes\\Create.cshtml",
-              "RelativeToolTip": "Views\\Vehiculoes\\Create.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwDwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Final\\SeminarioFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Final\\SeminarioFinal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-16T03:27:56.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Vehiculo.cs",
-              "DocumentMoniker": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Models\\Vehiculo.cs",
-              "RelativeDocumentMoniker": "Models\\Vehiculo.cs",
-              "ToolTip": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOG\u00CDAS DE INFORMACI\u00D3N\\BETA2\\Proyecto-ParqueoB\\Models\\Vehiculo.cs",
-              "RelativeToolTip": "Models\\Vehiculo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-15T22:01:05.591Z",
+              "WhenOpened": "2025-08-25T02:13:09.379Z",
               "EditorCaption": ""
             }
           ]

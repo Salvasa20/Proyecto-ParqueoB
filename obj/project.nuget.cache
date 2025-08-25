@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JSJQCtIRqx4=",
+  "dgSpecHash": "CyaLGzp9RO0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Proyecto-ParqueoB\\Primera.csproj",
+  "projectFilePath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\Primera.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ortiz\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ortiz\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

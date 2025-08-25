@@ -8080,11 +8080,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Proyecto-ParqueoB\\Primera.csproj",
+      "projectUniqueName": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\Primera.csproj",
       "projectName": "Primera",
-      "projectPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Proyecto-ParqueoB\\Primera.csproj",
+      "projectPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\Primera.csproj",
       "packagesPath": "C:\\Users\\ortiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Proyecto-ParqueoB\\obj\\",
+      "outputPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

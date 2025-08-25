@@ -7,13 +7,11 @@ namespace Primera.Models
     public class Vehiculo
     {
         [Key]
-        public int Id_Vehiculo { get; set; }
+        [Required]
+        [StringLength(20)]
+        public string NoPlaca { get; set; }   // PK según el diagrama
 
-        [Required(ErrorMessage = "El nombre es obligatorio")]
-        [StringLength(100, ErrorMessage = "El nombre no puede exceder 100 caracteres")]
-        public string NoPlaca { get; set; }
-
-        [Required(ErrorMessage = "El Marca es obligatorio")]
+        [Required(ErrorMessage = "La marca es obligatoria")]
         [StringLength(50)]
         public string Marca { get; set; }
 
@@ -21,14 +19,15 @@ namespace Primera.Models
         [StringLength(30)]
         public string Color { get; set; }
 
-        [Required(ErrorMessage = "El típo de vehiculo es obligatorio")]
-        [StringLength(50)]
-        public string TipoVehiculo { get; set; }
-
-        [ForeignKey("Cliente")]
+        // Relación con Cliente
+        [Required]
         public int Id_Cliente { get; set; }
-      //  public Cliente Cliente { get; set; }
-        public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
+        public Cliente Cliente { get; set; }
 
+        // Relación con TipoVehiculo
+        public ICollection<TipoVehiculo> TiposVehiculo { get; set; } = new List<TipoVehiculo>();
+
+        // Relación con Ticket
+        public ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
     }
 }
