@@ -787,10 +787,10 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.11": {
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.18": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "8.0.11"
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.18"
         },
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll": {
@@ -3974,10 +3974,10 @@
         "microsoft.aspnetcore.cryptography.keyderivation.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.11": {
-      "sha512": "uaNDdGsw7bttzjsQ6B+kNhEC74MMyYCpZ0esdNfrONhvE/tpUk91xqHWTy8q1C4vZPayABdimVSZZh7/DjEsZQ==",
+    "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore/8.0.18": {
+      "sha512": "H4GKNR5eGHpK5yovhsO3BvOfzKlSv8DVclVYi1JLN5wfei+HAbskbi9nMGGamgtqgVXX1RAAduGKGQWlWGlfKw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.11",
+      "path": "microsoft.aspnetcore.diagnostics.entityframeworkcore/8.0.18",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3985,7 +3985,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll",
         "lib/net8.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.xml",
-        "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.11.nupkg.sha512",
+        "microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.18.nupkg.sha512",
         "microsoft.aspnetcore.diagnostics.entityframeworkcore.nuspec"
       ]
     },
@@ -8062,7 +8062,7 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.Analyzers >= 8.0.11",
       "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter >= 8.0.11",
-      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.11",
+      "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.18",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.18",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.11",
       "Microsoft.Data.SqlClient >= 6.0.2",
@@ -8074,23 +8074,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ortiz\\.nuget\\packages\\": {},
+    "C:\\Users\\santo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\Primera.csproj",
+      "projectUniqueName": "C:\\Users\\santo\\OneDrive\\Documentos\\AÑO 2025\\10mo SEMESTRE\\Seminario\\Proyecto-ParqueoB\\Proyecto Seminario\\Proyecto-ParqueoB\\Primera.csproj",
       "projectName": "Primera",
-      "projectPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\Primera.csproj",
-      "packagesPath": "C:\\Users\\ortiz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ortiz\\Documents\\10 semestre\\047 SEMINARIO DE TECNOLOGÍAS DE INFORMACIÓN\\BETA2\\Final\\SeminarioFinal\\obj\\",
+      "projectPath": "C:\\Users\\santo\\OneDrive\\Documentos\\AÑO 2025\\10mo SEMESTRE\\Seminario\\Proyecto-ParqueoB\\Proyecto Seminario\\Proyecto-ParqueoB\\Primera.csproj",
+      "packagesPath": "C:\\Users\\santo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\santo\\OneDrive\\Documentos\\AÑO 2025\\10mo SEMESTRE\\Seminario\\Proyecto-ParqueoB\\Proyecto Seminario\\Proyecto-ParqueoB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ortiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\santo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8117,7 +8117,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -8133,7 +8133,7 @@
           },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[8.0.11, )"
+            "version": "[8.0.18, )"
           },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
@@ -8189,7 +8189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
